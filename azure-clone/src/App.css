@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+@font-face {
+  font-family: font-one;
+  src: url(/src/Component/assets/font/latest.woff2);
+}
+
+@font-face {
+  font-family: font-two;
+  src: url(/src/Component/assets/font/latest\ \(1\).woff2);
+}
+
+@font-face {
+  font-family: font-three;
+  src: url(/src/Component/assets/font/MWFFluentIcons.woff2);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
