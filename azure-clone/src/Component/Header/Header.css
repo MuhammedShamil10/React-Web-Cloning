@@ -1,45 +1,57 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-    height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 19px;
+  padding: 12px;
+  height: 78px;
 }
 .nav-leftSide {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 130px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0px;
+  width: 130px;
 }
-.nav-leftSide img{
-    width: 20px;
-    height: 15px;
+.nav-leftSide img {
+  width: 20px;
+  height: 15px;
 }
 .nav-leftSide span {
-    font-size: 18px;
-    color: #1a1a1f;
-    font-family: 'font-one';
-    font-weight: 600;
+  font-size: 18px;
+  color: #1a1a1f;
+  font-family: "font-one";
+  font-weight: 600;
 }
 .nav-rightSide {
-    display: flex;
-    align-items: flex-start;
-    width: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 130px;
 }
-.headerSearch-icon img{
-    width: 17px;
+.headerSearch-icon img {
+  width: 15px;
+  height: 16px;
 }
 .azure-signSection span {
-    font-size: 14px;
-    color: #1a1a1f;
-    font-family: 'font-two';
-    font-weight: 400;
-    padding: 20px;
+  font-size: 14px;
+  color: #1a1a1f;
+  font-family: "font-two";
+  font-weight: 400;
+  padding: 20px;
 }
-/* https://kuism.notion.site/Javascript-Objects-de37741aaedc4f39af9f5fa329596be9 */
+.Azure-getStart-content {
+    background-color: #000;
+}
+.azr-getStart {
+    padding: 0px 12px;
+}
+.azr-getStart-box {
+    padding: 48px 0px;
+}
