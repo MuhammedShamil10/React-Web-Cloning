@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -46,12 +40,26 @@
   font-weight: 400;
   padding: 20px;
 }
-.Azure-getStart-content {
-    background-color: #000;
+
+.header-one {
+  display: none;
 }
-.azr-getStart {
-    padding: 0px 12px;
-}
-.azr-getStart-box {
-    padding: 48px 0px;
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+  .header-one {
+    display: block;
+  }
+  .nav-leftSide {
+    height: 55px;
+  }
+  .nav-leftSide img {
+    width: 24px;
+    height: unset;
+  }
+  .header-one {
+    height: 55px;
+  }
 }

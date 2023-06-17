@@ -43,6 +43,22 @@
   src: url(/src/Component/assets/font/MWFFluentIcons.woff2);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+}
+h1 {
+  margin-bottom: 1rem;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

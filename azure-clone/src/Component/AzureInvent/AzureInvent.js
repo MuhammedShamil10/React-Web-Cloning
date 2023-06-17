@@ -19,7 +19,6 @@ function AzureInvent() {
     fetchingData();
   }, []);
 
-  console.log(data);
 
   return (
     <>
@@ -27,19 +26,23 @@ function AzureInvent() {
         <div className="azureGetStart-container">
           <div className="Azure-getStart">
             <div className="backgroundImg-azureInvent">
-              <img src={data.img} width="100%"/>
+              <img src={data.img} alt="" width="100%" />
             </div>
             <div className="Azure-getStart-content">
               <div className="azr-getStart">
                 <div className="azr-getStart-box">
-                  <h1 className="baseText">
-                    {data.baseHeading}
-                  </h1>
+                  <h1>{data.baseHeading}</h1>
                   <div className="azureExplore">
-                    <h1>Learn, connect, and explore</h1>
-                    <p>
-                      Envision and create intelligent apps with the latest technologies announced at Microsoft Build. Get started now with pay-as-you-go pricing. There’s no upfront commitment—cancel anytime. Or try Azure free for up to 30 days.
-                    </p>
+                    <h1>{data.purposeHeading}</h1>
+                    <p>{data.purposeHeadingText}</p>
+                  </div>
+                  <div className="azureGetStart-button">
+                    <a href="/" className="left-btn">
+                      <span>Get started</span>
+                    </a>
+                    <a href="/" className="right-btn">
+                      <span>Try Azute for free</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -47,6 +50,12 @@ function AzureInvent() {
           </div>
         </div>
       </main>
+      <div className="cloudSolution-azr">
+        <h2>
+          On-premises, hybrid, multicloud, or at the edge—create secure,
+          future-ready cloud solutions on Azure
+        </h2>
+      </div>
     </>
   );
 }
