@@ -5,7 +5,7 @@
   gap: 19px;
   padding: 12px;
   height: 78px;
-}
+}                                   
 .nav-leftSide {
   display: flex;
   justify-content: space-evenly;
@@ -50,7 +50,8 @@
     display: none;
   }
   .header-one {
-    display: block;
+    display: flex;
+    align-items: baseline;
   }
   .nav-leftSide {
     height: 55px;
@@ -61,5 +62,18 @@
   }
   .header-one {
     height: 55px;
+  }
+  .header-containerOne {
+    display: flex;
+  }
+  .header-containerOne ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'font-two';
+  }
+  .header-containerOne li {
+    padding: 8px 12px;
   }
 }

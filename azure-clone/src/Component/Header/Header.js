@@ -3,7 +3,7 @@ import "./Header.css";
 import hamBurger from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/hamBurger.svg";
 import azureLogo from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/azureSLogo.svg";
 import headerSearchLogo from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/search-line-icon.png"
-// import { MdOutlineKeyboardArrowDown } from "react-icons/fa";
+import menuBar from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/menuBar.svg"
 function Header() {
   return (
     <>
@@ -37,14 +37,22 @@ function Header() {
               <span>Azure</span>
             </div>
             <ul>
-              <li>Explore<MdOutlineKeyboardArrowDown /></li>
-              <li>Products<MdOutlineKeyboardArrowDown /></li>
-              <li>Solution<MdOutlineKeyboardArrowDown /></li>
-              <li>Pricing<MdOutlineKeyboardArrowDown /></li>
-              <li>Partners<MdOutlineKeyboardArrowDown /></li>
-              <li>Resources<MdOutlineKeyboardArrowDown /></li>
+              <li>Explore</li>
+              <li>Products</li>
+              <li>Solution</li>
+              <li>Pricing</li>
+              <li>Partners</li>
+              <li>Resources</li>
             </ul>
           </div>
+          <span className="headerSearch-icon">
+               <img src={headerSearchLogo} alt=""/>
+          </span>
+          <nav>
+            <span>
+              <img src={menuBar} />
+            </span>
+          </nav>
         </header>
       </div>
     </>
