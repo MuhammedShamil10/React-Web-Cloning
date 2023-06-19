@@ -45,14 +45,31 @@ function Header() {
               <li>Resources</li>
             </ul>
           </div>
+          <div className="right-nav">
           <span className="headerSearch-icon">
+              <input placeholder="Search" />
                <img src={headerSearchLogo} alt=""/>
           </span>
           <nav>
-            <span>
+            <span className="nav-menuBar">
               <img src={menuBar} />
             </span>
+            <div className="right-nav-section">
+            <ul>
+              <li>Learn</li>
+              <li>Support</li>
+              <li>Contact Sales</li>
+              <li className="foucsText">Free account</li>
+            </ul>
+            <div className="azure-signSection">
+                <span>Sign In</span>
+              </div>
+            </div>
           </nav>
+          </div>
+        </header>
+        <header className="header-two">
+
         </header>
       </div>
     </>
