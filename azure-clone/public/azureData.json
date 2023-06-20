@@ -75,7 +75,7 @@
             "textLink": "Azure Deployment Environments"
         }
     ],
-    "AIMLCards": [
+    "aimsLCards": [
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/machine-learning-service?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
             "text": "Build, train, and deploy machine learning",
@@ -203,7 +203,7 @@
             "textLink": "Azure Active Directory(Azure AD)"
         }
     ],
-    "IOT": [
+    "Iot": [
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-central-alt-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
             "text": "Build IoT solutions on a hosted platform",

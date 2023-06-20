@@ -40,7 +40,9 @@
   font-weight: 400;
   padding: 20px;
 }
-
+.azureGetStart-button {
+  text-align: left;
+}
 .header-one {
   display: none;
 }
@@ -133,6 +135,8 @@
   }
   .right-nav nav ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     font-size: 13px;
     font-family: 'font-two';
@@ -150,4 +154,46 @@
     display: flex;
     align-items: center;
   }
+  .focusText {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6f9e02;
+    background: #89c402;
+    color: #1a1a1f;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'font-one';
+    margin: 0px 6px;
+    padding: 9px;
+    width: 20%;
+    height: 45px;
+    line-height: 0.9;
+    border-radius: 4px;
+  }
+  .header-one {
+    height: 67px;
+  }
 }
+
+@media screen and (min-width: 1093px) {
+  .focusText {
+    width: unset;
+    height: 32px;
+  }
+} 
+@media screen and (min-width: 1400px) {
+  .header-one {
+   height: 54px;
+  }
+  .nav-leftSide {
+    gap: 20px;
+  }
+
+} 
+@media screen and (min-width: 1660px) {
+  .header-one {
+    max-width: 1660px;
+    margin-inline: 160px;
+  }
+} 
+

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "./AzureInvent.css";
-// function AzureGetStart() {
+
 
 function AzureInvent() {
-  const [data, setData] = useState(0);
+  const [data, setData] = useState([]);
   const fetchingData = () => {
     fetch(
       "https://raw.githubusercontent.com/MuhammedShamil10/React-Web-Cloning/main/azure-clone/public/azureData.json"
@@ -26,7 +26,7 @@ function AzureInvent() {
         <div className="azureGetStart-container">
           <div className="Azure-getStart">
             <div className="backgroundImg-azureInvent">
-              <img src={data.img} alt="" width="100%" />
+              <img className="mb-bgImage" src={data.img} alt="" width="100%" />
             </div>
             <div className="Azure-getStart-content">
               <div className="azr-getStart">

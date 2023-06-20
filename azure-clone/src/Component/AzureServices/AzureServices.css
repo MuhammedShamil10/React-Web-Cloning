@@ -1,0 +1,28 @@
+.product-list-items {
+    display: flex;
+    overflow: scroll;
+    border-bottom: 1px solid #505050;
+}
+.product-list-items::-webkit-scrollbar {
+    display: none;
+}
+.product-list-items a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #505050;
+    padding: 8px 24px;
+    font-family: 'font-one';
+    font-weight: 600;
+    height: 44px;
+}
+.product-list-items span {
+    white-space: nowrap;
+}
+.products-list-section {
+    padding: 0px 22px;
+}
+.product-list-items a:nth-child(1) {
+    border-bottom: 0.25rem solid #0078d4;
+    color: #0078d4;
+    border-color: #0078d4;
+}

@@ -59,7 +59,7 @@ function Header() {
               <li>Learn</li>
               <li>Support</li>
               <li>Contact Sales</li>
-              <li className="foucsText">Free account</li>
+              <li className="focusText">Free account</li>
             </ul>
             <div className="azure-signSection">
                 <span>Sign In</span>
