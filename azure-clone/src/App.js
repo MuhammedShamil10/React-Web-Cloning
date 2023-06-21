@@ -11,7 +11,7 @@ function App() {
       <Header />
       <AzureInvent />
       <AzurePlatformCards />
-      <AzureServices />
+      {/* <AzureServices /> */}
       <AllProduct />
     </div>
   );

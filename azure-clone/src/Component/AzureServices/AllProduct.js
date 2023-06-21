@@ -21,14 +21,14 @@ function AllProduct() {
       .then((response) => {
         return response.json();
       })
-      .then((item) => {
-        setData(item.productServices);
-        setFeature(item.featuredCards)
-        setAi(item.aimsCards)
-        setCompute(item.compute)
-        setContainer(item.containers)
-        setHybrid(item.hybridmulti)
-        setiot(item.iot)
+      .then((data) => {
+        setData(data.productServices);
+        setFeature(data.featuredCards)
+        setAi(data.aimsLCards)
+        setCompute(data.compute)
+        setContainer(data.containers)
+        setHybrid(data.hybridmulti)
+        setiot(data.Iot)
       });
   };
   useEffect(() => {
@@ -44,7 +44,7 @@ function AllProduct() {
         <div className='products-list-section'>
             <div className='product-list-items'>
                     {data.map((item, index) =>(
-                <a onClick={() => handleClick(item.value)} key={item.value} href='/'>
+                <a onClick={() => handleClick(item.value)} key={item.value} >
                         <span key={index}>
                             {item.name}
                         </span>
@@ -55,7 +55,7 @@ function AllProduct() {
         <div className='product-detials'>
             <div className='product-detial-column'>
                     <div className='products-boxes-section'>
-                        <section>
+                    <section>
                           {feat === "featured" && 
                             feature.map((item) => {
                               return(
@@ -69,6 +69,7 @@ function AllProduct() {
                             })}
                             {feat === "AIML" && 
                             ai.map((item) => {
+                              {console.log(item)}
                               return(
                              <AzureServices 
                              image={item.img}
@@ -89,6 +90,7 @@ function AllProduct() {
                                 />
                               );
                             })}
+
                             {feat === "containers" && 
                             container.map((item) => {
                               return(
@@ -101,7 +103,9 @@ function AllProduct() {
                               );
                             })}
                             {feat === "hybrid multicloud" && 
-                            hybrid.map((item) => {
+
+                              hybrid.map((item) => {
+                              {console.log(item)}
                               return(
                                 <AzureServices 
                                 image={item.img}
