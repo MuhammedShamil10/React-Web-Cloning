@@ -67,7 +67,7 @@ function AllProduct() {
                                 />
                               );
                             })}
-                            {feat === "AI ML" && 
+                            {feat === "AIML" && 
                             ai.map((item) => {
                               return(
                              <AzureServices 
