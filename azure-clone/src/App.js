@@ -3,6 +3,7 @@ import Header from './Component/Header/Header';
 import AzureInvent from './Component/AzureInvent/AzureInvent';
 import AzurePlatformCards from './Component/AzurePlatformCards/AzurePlatformCards';
 import AzureServices from './Component/AzureServices/AzureServices';
+import AllProduct from './Component/AzureServices/AllProduct';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <AzureInvent />
       <AzurePlatformCards />
       <AzureServices />
+      <AllProduct />
     </div>
   );
 }

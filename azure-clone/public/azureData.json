@@ -162,7 +162,7 @@
         },
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/openshift?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
-            "tex}t": "Build, deploy, and scale apps on fully managed OpenShift clusters",
+            "text": "Build, deploy, and scale apps on fully managed OpenShift clusters",
             "textLink": "Azure Red hat OpenShift clusters"
         },
         {
@@ -178,7 +178,7 @@
             "textLink": "Azure Arc"
         },
         {
-            "img}": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-stack?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+            "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/azure-stack?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
             "text": "Unify on-premises, hybrid, and cross-cloud infrastructure",
             "textLink": "Azure Stack"
         },
@@ -194,7 +194,7 @@
         },
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/expressroute?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
-            "tex}t": "Create secure, private clouds",
+            "text": "Create secure, private clouds",
             "textLink": "Azure ExpressRoute"
         },
         {
@@ -210,9 +210,9 @@
             "textLink": "Azure ioT Central"
         },
         {
-            "img}": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-edge?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
+            "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-edge?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
             "text": "Deploy cloud intelligence on local edge devices",
-            "tex}tLink": "Azure IoT Edge"
+            "textLink": "Azure IoT Edge"
         },
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/iot-hub?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=36&hei=36&qlt=75&fit=constrain",
