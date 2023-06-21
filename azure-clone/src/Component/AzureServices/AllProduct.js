@@ -130,6 +130,14 @@ function AllProduct() {
                     </div>
             </div>
         </div>
+        <a className='seeAll-product'>
+          <span>
+            See all products (200+)
+          </span>
+        </a>
+        <h2 className='customerAzure'>
+        Find out how these customers are innovating with Azure
+        </h2>
     </div>
   )
 }

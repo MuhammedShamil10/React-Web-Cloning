@@ -63,12 +63,99 @@
 .products-boxes-section {
     padding: 0px 12px;
 }
+.seeAll-product span{
+    display: block;
+    font-size: 16px;
+    color: #0078d4;
+    font-family: 'font-one';
+    font-weight: 600;
+    text-align: left;
+    padding: 24px 12px;
+    width: 100%;
+}
+.customerAzure {
+    font-size: 19px;
+    font-family: 'font-one';
+    font-weight: 600;
+    margin: 0px 0px 8px;
+    padding: 24px 12px;
+}
 
 @media screen and (min-width: 860px) {
-    /* .firstRow-box {
-        display: flex;
+  .productAndServices-container {
+    display: flex;
+    align-items: center;
+  }
+  .product-list-section {
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+  }
+  .product-list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: unset;
+    border: unset;
+  }
+  .products-boxes-section section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .product-list-items a {
+    margin: 0px 0px 16px;
+    padding: 8px 24px;
+  }
+  .product-list-items a:nth-child(1) {
+    border-left: 3px solid #0078d4;
+    border-bottom: 0px solid;
+  }
+  .featured-all-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 192px;
+    min-height: 336px;
+  }
+  .featured-all-card a {
+    width: 81%;
+  }
+  .product-list-items span {
+    display: block;
+    min-width: 94px;
+    text-align: left;
+    white-space: unset;
+  }
+}
+@media screen and (min-width: 1084px) {
+    .productAndServices-container {
+        padding-left: 5%;
+        padding-right: 5%;
     }
-    .secondRow-box {
+    .products-list-section {
+        padding: 0px 12px;
+    }
+    .products-boxes-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .featured-all-card {
+        min-width: 201px;
+        max-width: 331px;
+        min-height: 288px;
+    }
+    .productAndServices-container {
         display: flex;
-    } */
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1660px) {
+ .featured-all-card {
+    min-width: 331px;
+    min-height: 250px;
+    max-height: 216px;
+ }
+ .featured-all-card p {
+    min-height: 110px;
+ }
 }

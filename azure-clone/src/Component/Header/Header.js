@@ -4,6 +4,7 @@ import hamBurger from "/home/sha/Documents/React Web Clone/azure-clone/src/Compo
 import azureLogo from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/azureSLogo.svg";
 import headerSearchLogo from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/search-line-icon.png"
 import menuBar from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/menuBar.svg"
+import downAngle from "/home/sha/Documents/React Web Clone/azure-clone/src/Component/assets/img/angle-down.png"
 function Header() {
   return (
     <>
@@ -37,12 +38,12 @@ function Header() {
               <span>Azure</span>
             </div>
             <ul>
-              <li>Explore</li>
-              <li>Products</li>
-              <li>Solution</li>
-              <li>Pricing</li>
-              <li>Partners</li>
-              <li>Resources</li>
+              <li>Explore<img src={downAngle} width="6px" alt=""/></li>
+              <li>Products<img src={downAngle} width="6px" alt=""/></li>
+              <li>Solution<img src={downAngle} width="6px" alt=""/></li>
+              <li>Pricing<img src={downAngle} width="6px" alt=""/></li>
+              <li>Partners<img src={downAngle} width="6px" alt=""/></li>
+              <li>Resources<img src={downAngle} width="6px" alt=""/></li>
             </ul>
           </div>
           <div className="right-nav">
@@ -52,7 +53,7 @@ function Header() {
           </span>
           <nav>
             <span className="nav-menuBar">
-              <img src={menuBar} />
+              <img src={menuBar} alt=""/>
             </span>
             <div className="right-nav-section">
             <ul>
@@ -67,9 +68,6 @@ function Header() {
             </div>
           </nav>
           </div>
-        </header>
-        <header className="header-two">
-
         </header>
       </div>
     </>

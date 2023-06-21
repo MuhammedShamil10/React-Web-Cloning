@@ -71,6 +71,8 @@
   }
   .header-containerOne {
     display: flex;
+    align-items: center;
+    gap: 12px;
     margin: 0px 46px 0px 0px;
     padding: 0px 12px;
   }
@@ -82,7 +84,12 @@
     font-family: 'font-two';
   }
   .header-containerOne li {
-    padding: 8px 12px;
+    display: flex;
+    align-items: baseline;
+    padding: 20px 8px;
+  }
+  .header-containerOne li img {
+    margin: 5px 0px 0px 6px;
   }
   .headerSearch-icon img {
     width: 14px;
@@ -99,6 +106,7 @@
     justify-content: space-evenly;
     gap: 23px;
     height: 24px;
+    /* margin-left: -18px; */
   }
   .headerSearch-icon input {
     display: none;  

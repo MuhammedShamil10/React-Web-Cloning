@@ -263,33 +263,45 @@
             "value": "nhs"
         }
     ],
-    "CSdescription": [
+    "forzaGame": [
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/forza-horizon-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&qlt=100&fit=constrain",
             "text": "Turn 10 Studios created a turbocharged gaming architecture for Forza Horizon 5 using Azure Kubernetes Service (AKS) and other Azure services",
             "textElaburate": "Case study"
-        },
+        }
+    ],
+
+    "nbaSports": [
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Fujitsu-banner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&qlt=100&fit=constrain",
             "text": "Fujitsu increased efficiency and reduced costs by migrating its on-premises datacenters to Azure and by modernizing with a cloud-first strategy",
             "textElaburate": "Case study"
-        },
+        }
+    ],
+    "hrBlock": [
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/customer_nba?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3632&qlt=100&fit=constrain",
             "text": "The NBA used Azure to deliver innovative experiences that keep fans engaged and help referees make consistent calls across all games",
             "textElaburate": "Case study"
-        },
+        }
+    ],
+    "nhsMedic" :[
+            
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/HR_bannner?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&qlt=100&fit=constrain",
             "text": "H&R Block optimizes the tax return process using Azure AI and Azure Machine Learning to quickly digitize data from forms",
             "textElaburate": "Case study"
-        },
+        }
+    ],
+    "fujisuCloud" :[
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/nhs-home-customerstory?resMode=sharp2&op_usm=1.5,0.65,15,0&hei=600&qlt=75",
             "text": "North Umbria Healthcare NHS Foundation Trust is helping doctors turn data into medical insights with Azure Machine Learning and the Responsible AI Dashboard",
             "textElaburate": "Case study"
         }
     ],
+
+      
     "migrationAzure":
         {
             "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/home_accelerate?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=500&hei=400&qlt=75&fmt=png-alpha&fit=crop",
