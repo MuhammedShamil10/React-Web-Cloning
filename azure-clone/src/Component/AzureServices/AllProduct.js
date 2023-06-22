@@ -3,48 +3,16 @@ import AzureServices from './AzureServices'
 import './Allproduct.css'
 
 
-function AllProduct() {
+function AllProduct({item,feat,feature,ai,compute,container,hybrid, iot, click}) {
 
-  const[data, setData] =useState([])
-  const[feat, setFeat] =useState("featured")
-  const[feature, setFeature] =useState([])
-  const[ai, setAi] =useState([])
-  const[compute, setCompute] =useState([])
-  const[container, setContainer] =useState([])
-  const[hybrid, setHybrid] =useState([])
-  const[iot, setiot] =useState([])
-  
-  const fetchingData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/MuhammedShamil10/React-Web-Cloning/main/azure-clone/public/azureData.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setData(data.productServices);
-        setFeature(data.featuredCards)
-        setAi(data.aimsLCards)
-        setCompute(data.compute)
-        setContainer(data.containers)
-        setHybrid(data.hybridmulti)
-        setiot(data.Iot)
-      });
-  };
-  useEffect(() => {
-    fetchingData();
-  }, []);
-  
-  let handleClick = (item) => {
-    setFeat(item)
-  };
 
   return (
+    <div className='product-container'>
 <div className='productAndServices-container'>
         <div className='products-list-section'>
             <div className='product-list-items'>
-                    {data.map((item, index) =>(
-                <a onClick={() => handleClick(item.value)} key={item.value} >
+                    {item.map((item, index) =>(
+                <a onClick={() => click(item.value)} key={item.value} >
                         <span key={index}>
                             {item.name}
                         </span>
@@ -130,6 +98,7 @@ function AllProduct() {
                     </div>
             </div>
         </div>
+    </div>
         <a className='seeAll-product'>
           <span>
             See all products (200+)

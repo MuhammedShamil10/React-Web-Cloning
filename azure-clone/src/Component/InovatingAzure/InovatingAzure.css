@@ -1,0 +1,89 @@
+.customer-azure {
+    display: flex;
+    gap: 54px;
+    overflow: scroll;
+}
+.customer-azure::-webkit-scrollbar {
+    display: none;
+}
+.customer-azure img {
+    width: 145px;
+    height: 47px;
+}
+.customer-innovating img {
+    width: 100%;
+}
+.service-detial-column {
+    margin-top: 60px;
+}
+.customer-azure a {
+    display: flex;
+    align-items: flex-end;
+    height: 60px;
+}
+.customer-azure a:nth-child(1) {
+    border: 3px solid #0078d4;
+    border-radius: 6px;
+}
+.content-text-link {
+    background: #000;
+}
+.content-text-link a {
+    text-decoration: none;
+    color: #50E6FF;
+}
+.content-text-link {
+    padding: 48px 12px;
+    text-align: left;
+    margin-top: -7px;
+}
+.cutomer-contnet p {
+    font-size: 18px;
+    font-family: 'font-one';
+    color: #fff;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+@media screen and (min-width: 860px) {
+    .customer-content-section {
+        position: relative;
+        padding: 0 12px;
+    }
+    .content-text-link {
+        position: absolute;
+        top: -46px;
+        right: 12px;
+        left: 12px;
+        padding: 48px;
+    }
+    .customer-azure {
+        justify-content: center;
+        gap: 26px;
+        padding-left: 159px;
+    }
+    .customer-azure img {
+        width: 180px;
+        height: 55px;
+    }
+    .customer-azure a {
+        height: 70px;
+    }
+}
+@media screen and (min-width: 1084px) {
+    .content-text-link {
+        width: 52.5%;
+    }
+    .content-text-link {
+        position: absolute;
+        top: -244px;
+        right: 12px;
+        left: 55px;
+        padding: 48px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .cutomer-contnet p {
+        font-size: 21px;
+    }
+}

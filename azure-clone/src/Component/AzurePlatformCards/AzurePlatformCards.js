@@ -1,25 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./AzurePlatformCards.css";
 
-function AzurePlatformCards() {
-  const [data, setData] = useState([]);
-  const fetchingData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/MuhammedShamil10/React-Web-Cloning/main/azure-clone/public/azureData.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((item) => {
-        setData(item.headBoxs);
-      });
-  };
-
-  useEffect(() => {
-    fetchingData();
-  }, []);
-
-  // console.log(data);
+function AzurePlatformCards({data}) {
 
   return (
     <div className="azureContentCard-container">

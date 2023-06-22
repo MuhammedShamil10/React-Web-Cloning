@@ -2,23 +2,7 @@ import { useEffect, useState } from "react";
 import "./AzureInvent.css";
 
 
-function AzureInvent() {
-  const [data, setData] = useState([]);
-  const fetchingData = () => {
-    fetch(
-      "https://raw.githubusercontent.com/MuhammedShamil10/React-Web-Cloning/main/azure-clone/public/azureData.json"
-    )
-      .then((response) => {
-        return response.json();
-      })
-      .then((item) => {
-        setData(item.headerTop);
-      });
-  };
-  useEffect(() => {
-    fetchingData();
-  }, []);
-
+function AzureInvent({headertop}) {
 
   return (
     <>
@@ -26,15 +10,15 @@ function AzureInvent() {
         <div className="azureGetStart-container">
           <div className="Azure-getStart">
             <div className="backgroundImg-azureInvent">
-              <img className="mb-bgImage" src={data.img} alt="" width="100%" />
+              <img className="mb-bgImage" src={headertop.img} alt="" width="100%" />
             </div>
             <div className="Azure-getStart-content">
               <div className="azr-getStart">
                 <div className="azr-getStart-box">
-                  <h1>{data.baseHeading}</h1>
+                  <h1>{headertop.baseHeading}</h1>
                   <div className="azureExplore">
-                    <h1>{data.purposeHeading}</h1>
-                    <p>{data.purposeHeadingText}</p>
+                    <h1>{headertop.purposeHeading}</h1>
+                    <p>{headertop.purposeHeadingText}</p>
                   </div>
                   <div className="azureGetStart-button">
                     <a href="/" className="left-btn">

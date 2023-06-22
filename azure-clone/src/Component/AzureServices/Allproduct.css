@@ -126,6 +126,9 @@
     text-align: left;
     white-space: unset;
   }
+  .seeAll-product span {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1084px) {
     .productAndServices-container {
