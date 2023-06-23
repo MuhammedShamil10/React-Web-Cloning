@@ -1,0 +1,207 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 19px;
+  padding: 12px;
+  height: 78px;
+}                                   
+.nav-leftSide {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0px;
+  width: 130px;
+}
+.nav-leftSide img {
+  width: 20px;
+  height: 15px;
+}
+.nav-leftSide span {
+  font-size: 18px;
+  color: #1a1a1f;
+  font-family: "font-one";
+  font-weight: 600;
+}
+.nav-rightSide {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 130px;
+}
+.headerSearch-icon img {
+  width: 15px;
+  height: 16px;
+}
+.azure-signSection span {
+  font-size: 14px;
+  color: #1a1a1f;
+  font-family: "font-two";
+  font-weight: 400;
+  padding: 20px;
+}
+.azureGetStart-button {
+  text-align: left;
+}
+.header-one {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+  .header-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+  }
+  .nav-leftSide {
+    width: 90px;
+    height: 55px;
+    gap: 6px;
+  }
+  .azure-logo-img {
+    margin-top: 8px;
+  }
+  .nav-leftSide img {
+    width: 24px;
+    height: unset;
+  }
+  .header-containerOne {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0px 46px 0px 0px;
+    padding: 0px 12px;
+  }
+  .header-containerOne ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'font-two';
+  }
+  .header-containerOne li {
+    display: flex;
+    align-items: baseline;
+    padding: 20px 8px;
+  }
+  .header-containerOne li img {
+    margin: 5px 0px 0px 6px;
+  }
+  .headerSearch-icon img {
+    width: 14px;
+    height: 14px;
+  }
+  .nav-menuBar img{
+    width: 24px;
+  }
+  .header-one nav {
+    display: flex;
+  }
+  .right-nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 23px;
+    height: 24px;
+    /* margin-left: -18px; */
+  }
+  .headerSearch-icon input {
+    display: none;  
+  }
+  .right-nav-section ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .nav-menuBar {
+    display: none;
+  }
+    .headerSearch-icon {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+  .headerSearch-icon img {
+    position: absolute;
+    right: 13px;
+  }
+  .headerSearch-icon input {
+    display: block;
+    background: #F8F9FA;
+    border: 1px solid #747479;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 24px;
+    min-height: 32px;
+    font-family: 'font-two';
+    width: 120px;
+  }
+  .right-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'font-two';
+  }
+  .right-nav nav li {
+    padding: 8px;
+  }
+  .header-containerOne {
+    margin: 0px;
+  }
+  .azure-signSection span {
+    padding: 8px;
+  }
+  .right-nav-section {
+    display: flex;
+    align-items: center;
+  }
+  .focusText {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6f9e02;
+    background: #89c402;
+    color: #1a1a1f;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'font-one';
+    margin: 0px 6px;
+    padding: 9px;
+    width: 20%;
+    height: 45px;
+    line-height: 0.9;
+    border-radius: 4px;
+  }
+  .header-one {
+    height: 67px;
+  }
+}
+
+@media screen and (min-width: 1093px) {
+  .focusText {
+    width: unset;
+    height: 32px;
+  }
+} 
+@media screen and (min-width: 1400px) {
+  .header-one {
+   height: 54px;
+  }
+  .nav-leftSide {
+    gap: 20px;
+  }
+
+} 
+@media screen and (min-width: 1660px) {
+  .header-one {
+    max-width: 1660px;
+    margin-inline: 160px;
+  }
+} 
+

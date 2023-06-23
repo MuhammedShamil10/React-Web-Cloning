@@ -1,0 +1,80 @@
+.discover-azure {
+  padding: 0 12px;
+}
+.discover-azure h2 {
+  font-size: 19px;
+  font-family: "font-one";
+  padding: 24px 0;
+  text-align: left;
+}
+.discover-column {
+  margin: 0 0 48px;
+  padding: 0 12px;
+}
+.discover-card {
+  box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0, 0, 0, 0.13),
+    0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.11);
+}
+.discover-card img {
+  width: 100%;
+}
+.space {
+  padding: 16px 24px 24px;
+}
+.card-content {
+  padding: 24px 24px 0;
+  text-align: left;
+}
+.card-content h3 {
+  font-size: 14px;
+  font-family: "font-two";
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+.content-text p {
+  font-size: 16px;
+  font-family: "font-two";
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+.content-link {
+  font-size: 16px;
+  font-family: "font-one";
+  color: #0067b8;
+  margin: 8px 0;
+  padding: 0 27px 0 0;
+}
+@media screen and (min-width: 860px) {
+    .card-column section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .discover-card {
+        min-height: 415.17px;
+    }
+}
+@media screen and (min-width: 1084px) {
+    .discover-azure-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover-card {
+        min-height: 415.17px;
+    }
+    .discover-azure {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+    .discover-azure h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .discover-azure h2 {
+        font-size: 24px;
+    }
+}

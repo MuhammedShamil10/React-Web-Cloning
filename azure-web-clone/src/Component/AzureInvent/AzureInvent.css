@@ -1,0 +1,123 @@
+.Azure-getStart-content {
+    background-color: #000;
+    margin-top: -7px;
+}
+.azr-getStart {
+    padding: 0px 12px;
+}
+.azr-getStart-box {
+    padding: 48px 0px;
+}
+.azr-getStart-box h1 {
+  font-size: 16px;
+  margin: 0px 0px 16px;
+  color: #fff;
+  font-family: 'font-one';
+  text-align: left;
+}
+.azureExplore h1{
+  font-size: 29px;
+  font-family: 'font-one';
+  text-align: left;
+}
+.azureExplore p {
+  font-size: 16px;
+  font-family: 'font-two';
+  color: #fff;
+  text-align: left;
+  margin: 0px 0px 40px;
+}
+.left-btn {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  background: #50e6ff;
+  margin: 8px 24px 8px 0px;
+  padding: 10px 12px;
+  border: 0.125rem solid transparent;
+}
+.right-btn {
+  text-decoration: none;
+  font-size: 16px;
+  margin: 8px 0px;
+  padding: 10px 12px;
+  color: #fff;
+  border: 0.125rem solid #fff;
+}
+.cloudSolution-azr {
+  margin: 16px 0px;
+  padding: 8px 0px 16px;
+ 
+}
+.cloudSolution-azr h2 {
+  font-size: 19px;
+  font-family: 'font-one';
+  padding: 0px 12px;
+  margin: 0px 0px 8px;
+  text-align: left;
+}
+
+@media screen and (min-width: 860px) {
+  .azr-getStart-box {
+    padding: 48px;
+  }
+} 
+@media screen and (min-width: 1084px) {
+  
+  .Azure-getStart {
+    position: relative;
+  }
+  .Azure-getStart-content {
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+  }
+  .azr-getStart-box {
+    width: 53.7%;
+    margin-left: 45px;
+  }
+  .mb-bgImage {
+    min-height: 455px;
+  }
+  .azr-getStart {
+    display: flex;
+    align-items: center;
+    min-height: 461px;
+  }
+  .azureExplore h1 {
+    font-size: 37px;
+  }
+  .cloudSolution-azr  h2{
+    text-align: center;
+    font-size: 21px;
+  }
+} 
+@media screen and (min-width: 1400px) {
+  .azr-getStart-box h1{
+    margin-bottom: 24px;
+  }
+  .azureExplore {
+    width: 67%;
+  }
+  .azureExplore h1 {
+    font-size: 50px;
+    margin-bottom: 24px;
+  }
+  .mb-bgImage {
+    min-height: 539px;
+  }
+  .azr-getStart {
+    min-height: 545px;
+  }
+  .azr-getStart-box {
+    margin-left: 55px;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .azr-getStart-box {
+    margin-left: 140px;
+  }
+  .azr-getStart {
+    min-height: 650px;
+  }
+}
