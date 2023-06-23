@@ -1,0 +1,88 @@
+/* .azure-boat-container {
+    background: #000;
+} */
+.boat-row h2 {
+  font-size: 19px;
+  font-family: "font-one";
+  color: #fff;
+  text-align: left;
+  margin: 0 0 8px;
+}
+.boat-content {
+  padding: 0 12px;
+}
+.boat-column {
+  padding: 48px 0;
+}
+.link-group {
+  text-align: left;
+}
+.link-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #0078d4;
+  background: #0078d4;
+  margin: 16px 24px 16px 0px;
+  padding: 10px 12px 10px 17px;
+  width: 230px;
+}
+.link-text img {
+  width: 16px;
+}
+.link-text span {
+  color: #fff;
+}
+.join-link {
+  font-size: 16px;
+  color: #50e6ff;
+  padding: 8px 27px 8px 0;
+}
+.boat-content {
+  background: #000;
+}
+.boat-section {
+  margin-top: -7px;
+}
+@media screen and (min-width: 538px) {
+  .link-group {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 860px) {
+  .boat-section {
+    position: absolute;
+    padding: 0px 12px;
+    top: 253px;
+  }
+  .boat-column {
+    padding: 33px 48px;
+  }
+  .azure-boat-container {
+    position: relative;
+  }
+}
+@media screen and (min-width: 1084px) {
+  .boat-section {
+    width: 62%;
+  }
+  .boat-section {
+    top: 145px;
+    left: 41px;
+  }
+}
+@media screen and (min-width: 1400px) {
+.boat-row h2 {
+    font-size: 24px;
+}
+.boat-section {
+    top: 210px;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+    .boat-section {
+        top: 400px;
+      }
+    }

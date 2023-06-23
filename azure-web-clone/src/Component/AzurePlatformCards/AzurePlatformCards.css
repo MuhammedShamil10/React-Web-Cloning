@@ -1,0 +1,104 @@
+.azureContentCard {
+    display: contents;
+    width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.firstCard-joinMS {
+    margin: 0px 0px 48px;
+    padding: 0px 12px;
+}
+.cards {
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+}
+.cards img {
+    min-width: 296px;
+    width: 100%;
+}
+.cards h1 {
+    font-size: 18px;
+    color: #0067B8;
+    text-align: left;
+    text-decoration: underline;
+    font-family: 'font-one';
+    margin-bottom: 5px;
+}
+.cards p {
+    text-align: left;
+    font-family: 'font-two';
+    margin-bottom: 16px;
+    width: 84%;
+}
+.join-MS {
+    padding: 24px 24px 0px;
+}
+.azr-priceProduct-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.azr-priceProduct-container span {
+    font-size: 16px;
+    font-family: 'font-two';
+}
+.azr-priceProduct-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0067d4;
+    font-size: 16px;
+    font-family: 'font-one';
+    border: 2px solid #0067d4;
+    padding: 10px 12px;
+    height: 40px;
+}
+.azr-productService {
+    padding: 78px 12px 0px 12px;
+}
+.azr-productService h2 {
+    font-size: 19px;
+    font-family: 'font-one';
+    font-weight: 600;
+    margin-bottom: 72px;
+}
+@media screen and (min-width: 860px) {
+   .firstCard-row {
+    display: flex;
+   }
+   .cards {
+    height: 92%;
+   }
+    .cards img {
+        min-width: 262px;
+    }
+    .cards-column {
+        padding: 0px 12px;
+    }
+    .firstCard-joinMS p {
+        width: 100%;
+    }
+    .firstCard-joinMS {
+        padding: unset;
+    }
+}
+@media screen and (min-width: 1084px) {
+    .firstCard-row {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .azr-productService h2 {
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .join-MS h1{
+        font-size: 21px;
+    }
+    .azr-productService h2 {
+        font-size: 24px;
+    }
+}
