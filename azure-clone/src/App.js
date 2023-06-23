@@ -9,6 +9,8 @@ import InovatingAzure from './Component/InovatingAzure/InovatingAzure';
 import AzureMigration from './Component/AzureMigration/AzureMigration';
 import DiscoverAzure from './Component/DiscoverAzure/DiscoverAzure';
 import AzureBot from './Component/AzureBot/AzureBot';
+import AzureBuild from './Component/AzureBuild/AzureBuild';
+import AzureFooter from './Component/AzureFooter/AzureFooter';
 
 function App() {
 
@@ -105,6 +107,8 @@ function App() {
       <AzureMigration  value={migration} textValue={heading}/>
       <DiscoverAzure value={discover} />
       <AzureBot value={boat}/>
+      <AzureBuild value={build}/>
+      <AzureFooter />
     </div>
   );
 }
