@@ -105,6 +105,7 @@ export default function AzureFooter() {
               <li>Documentation</li>
               <li>Updates</li>
               <li>Blog</li>
+              {/* sample */}
               <li>Developer resources</li>
               <li>Students</li>
               <li>Events and webinars</li>
